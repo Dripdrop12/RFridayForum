@@ -749,9 +749,10 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>Shiny: R Friday Forum</h1><p>Jonathan Hill<br/>2016-02-25</p>
+<h1>Shiny: R Friday Forum</h1><p>Jonathan Hill<br/>2016-02-26</p>
 
 <div class="slideContent" >
+<p>Everything&#39;s on <a href="https://github.com/Dripdrop12/RFridayForum">GitHub</a>!</p>
 
 </div>
 
@@ -1017,6 +1018,22 @@ ui
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
+<h3>What will this layout produce?</h3>
+<div class="slideContent" >
+<pre><code class="r">ui &lt;- fluidPage(
+    fluidRow(column(width = 4), 
+             column(width = 4), 
+             column(width = 4)
+        ),
+    fluidRow(column(width = 12)
+        )
+) 
+</code></pre>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
 <h3>HTML Tags</h3>
 <div class="slideContent" >
 <pre><code class="r">h1(&quot;Header 1&quot;)
@@ -1052,11 +1069,11 @@ code(&quot;code&quot;)
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>JavaScript and css</h3>
+<h3>JavaScript and CSS</h3>
 <div class="slideContent" >
 <h3>Short Scripts:</h3>
 
-<pre><code class="r">includeCSS(&#39;raw css here&#39;)
+<pre><code class="r">includeCSS(&#39;raw CSS here&#39;)
 
 includeScript(&#39;raw JavaScript here&#39;)
 </code></pre>
@@ -1080,17 +1097,53 @@ img(src=&quot;&lt;file name&gt;&quot;)
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Example</h3>
-<div class="slideContent" >
-<pre><code class="r">ui &lt;- fluidPage(
-    fluidRow(column(width = 4), 
-             column(width = 4), 
-             column(width = 4)
-        ),
-    fluidRow(column(width = 12)
-        )
-) 
+
+<div class="slideContent noTitle" >
+<h2>Demo APP</h2>
+
+<pre><code class="r">runExample(&quot;06_tabsets&quot;)
 </code></pre>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+
+<div class="column column1 slideContent noTitle" >
+<h2>Learn More</h2>
+
+<ul>
+<li><a href="http://shiny.rstudio.com/tutorial/">Tutorial</a></li>
+<li><a href="http://shiny.rstudio.com/articles/">Shiny Articles</a></li>
+<li><a href="http://shiny.rstudio.com/gallery/">Shiny Gallery</a></li>
+<li><a href="https://www.rstudio.com/products/shiny/shiny-user-showcase/">Shiny Showcase</a></li>
+</ul>
+
+
+</div>
+
+<div class="column column2 slideContent noTitle" >
+
+
+<h2>Building Tools</h2>
+
+<ul>
+<li><a href="http://shiny.rstudio.com/images/shiny-cheatsheet.pdf">Cheat Sheet</a></li>
+<li><a href="http://fontawesome.io/icons/">Font Awesome Icons</a></li>
+<li><a href="http://bootswatch.com/">CSS Style Sheets</a></li>
+<li><a href="http://rstudio.github.io/shinydashboard/">AdminLTE Layout (shinydashboard)</a></li>
+<li><a href="https://github.com/daattali/shinyjs/blob/master/README.md">shinyjs</a></li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>GitHub</h3>
+<div class="slideContent" >
+<p>Everything for this presentation can be found on <a href="https://github.com/Dripdrop12/RFridayForum">my github account</a>.  </p>
+
+<p>You can also check out <a href="https://github.com/vadimus202">Vadim&#39;s</a>, too.</p>
 
 </div>
 

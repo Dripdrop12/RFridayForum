@@ -1,9 +1,11 @@
 Shiny: R Friday Forum
 ========================================================
 author: Jonathan Hill
-date: 2016-02-25
+date: 2016-02-26
 autosize: true
 font-family: 'Lato'
+
+Everything's on [GitHub](https://github.com/Dripdrop12/RFridayForum)!
 
 Start here:
 ========================================================
@@ -293,7 +295,7 @@ runExample("06_tabsets")
 
 GitHub
 ========================================================
-Everything for this presentation can be found on [my github account](https://github.com/Dripdrop12).  
+Everything for this presentation can be found on [my github account](https://github.com/Dripdrop12/RFridayForum).  
 
 You can also check out [Vadim's](https://github.com/vadimus202), too.
 
